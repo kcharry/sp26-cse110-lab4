@@ -1,6 +1,6 @@
 1. values added:  20
 2. final result:  20
-3. You should not use var because result is accessible outside the if block in the same function, which can lead to unintended use of variables outside where they were defined. This makes the code harder to predict and more error-prone. Using let would limit result to the block it was declared in.
+3. You should not use `var` because `result` is accessible outside the `if` block in the same function, which can lead to unintended use of variables outside where they were defined. This makes the code harder to predict and more error-prone. Using `let` would limit `result` to the block it was declared in.
 4. Line 9 should print `values added: 20` because `num1 + num2` is computed and logged inside the `if` block but this does not get printed because a **ReferenceError: result is not defined** error is thrown at line 13 since `result` is declared with `let` inside the `if` bloc, so it cannot be accessed outside of it at line 13
 5. It throws a **ReferenceError: result is not defined** error because `result` is declared with `let` inside the `if` block, so it cannot be accessed outside of it at line 13.
 6. It throws a **TypeError: Assignment to constant variable** error because `result` is declared with `const`, so it cannot be reassigned when `result = num1 + num2` is executed.
