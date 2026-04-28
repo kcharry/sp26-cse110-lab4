@@ -1,0 +1,2 @@
+1. num1 and num2 were strings, causing result to just be the string concatenation of num1 and num2 instead of actual additon. 
+2. see fix.png. Use parseFloat to convert strings to floating point numbers. 
