@@ -10,29 +10,29 @@
 10. Line 12 prints `3` because `length` is a constant storing `prices.length`, which is 3 for the given input array. Since `const length` is declared in the function scope, it is accessible throughout the function and retains its value.
 11. This function returns `[50, 100, 150]` because it loops through each price, applies the discount, and stores each result in the `discounted` array. Although `discounted` is declared with `const`, meaning it cannot be reassigned, it's contents (pushing into the array) can still be updated. After all iterations, the completed array is returned.
 12. 
-    A. student.name 
-    B. student["Grad Year"]
-    C. student.greeting()
-    D. student["Favorite Teacher"].name
-    E. student.courseLoad[0]
+    A. student.name \
+    B. student["Grad Year"] \
+    C. student.greeting() \
+    D. student["Favorite Teacher"].name \
+    E. student.courseLoad[0] 
 
 13. 
-    A. '32' Because + with a string triggers concatenations, so 2 is converted to a string since integers map to their exact string representaiton. 
-    B. 1 Because - forces numeric conversion, so "3" becomes 3.
-    C. 3 Because null is treated as 0 in numeric operations 
-    D. '3null' Because strong concatenation occurs, so null becomes "null"
-    E. 4 Because true maps to 1
-    F. 0 Because both false and null map to 0.
-    G. "3undefined" string concacatenation occurs, sno undefined becomes "undefined"
-    H. NaN undefined becomes NaN, and any math with NaN stays NaN.
+    A. '32' Because + with a string triggers concatenations, so 2 is converted to a string since integers map to their exact string representaiton. \
+    B. 1 Because - forces numeric conversion, so "3" becomes 3. \
+    C. 3 Because null is treated as 0 in numeric operations \
+    D. '3null' Because strong concatenation occurs, so null becomes "null" \
+    E. 4 Because true maps to 1 \
+    F. 0 Because both false and null map to 0. \
+    G. "3undefined" string concacatenation occurs, sno undefined becomes "undefined" \
+    H. NaN undefined becomes NaN, and any math with NaN stays NaN. 
 
 14. 
-    A. true because '2' is converted to number 2
-    B. false because string comparison is lexicongraphic, so "2" is greater than "1"
-    C. true because == allows type coercion, so both become 2
-    D. false becuase === checks value and type, so number != string 
-    E. false because true maps to 1, so 1 == 2 is false
-    F. true because Boolean(2) is true, and both are the same type and value
+    A. true because '2' is converted to number 2 \
+    B. false because string comparison is lexicongraphic, so "2" is greater than "1" \
+    C. true because == allows type coercion, so both become 2 \
+    D. false becuase === checks value and type, so number != string \
+    E. false because true maps to 1, so 1 == 2 is false \
+    F. true because Boolean(2) is true, and both are the same type and value 
 
 15. == compares values after converting types (loose equality), while === compares both value and type without conversion (strict equality).
 
@@ -43,7 +43,7 @@
 18. see part2-question18.js
 
 19. 
-1
-4
-3
-2
+1 \
+4 \
+3 \
+2 
